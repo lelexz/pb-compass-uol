@@ -2,7 +2,7 @@
 
 <h2 align="center">Oi, eu sou a Letícia :) </h2>
 
-<img src"https://instagram.fcgh68-1.fna.fbcdn.net/v/t51.2885-19/350872092_259198410087631_1196383343580539943_n.jpg?_nc_ht=instagram.fcgh68-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=QLTVXdAnRKMQ7kNvgEdXViZ&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYDh77fArTDkkVe-0kG2TTxpAfaGdBVCVTMLzuPTqyuhjQ&oe=66D542F6&_nc_sid=bef7bc">
+<img src"https://instagram.fcgh68-1.fna.fbcdn.net/v/t51.2885-19/350872092_259198410087631_1196383343580539943_n.jpg?_nc_ht=instagram.fcgh68-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=QLTVXdAnRKMQ7kNvgEdXViZ&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYDh77fArTDkkVe-0kG2TTxpAfaGdBVCVTMLzuPTqyuhjQ&oe=66D542F6&_nc_sid=bef7bc"  width="27"/>
 
 <h3 align="center"> ✨ Sobre mim ✨ </h3>
 
