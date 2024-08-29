@@ -2,7 +2,7 @@
 
 <h2 align="center">oi, eu sou a Letícia :) </h2>
 
-<img src="https://media.licdn.com/dms/image/v2/D4D03AQGf_10niGdXGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685994501131?e=1730332800&v=beta&t=g8-oLg6q4cPIKrUlaMAAeBQPrg0SkpZ4ipaKdcJ3guU" style="align: center;" style="width:35%"/>
+<img src="https://media.licdn.com/dms/image/v2/D4D03AQGf_10niGdXGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685994501131?e=1730332800&v=beta&t=g8-oLg6q4cPIKrUlaMAAeBQPrg0SkpZ4ipaKdcJ3guU" style="width:35%"/>
 
 
 
