@@ -3,7 +3,7 @@
 ### O que aprendi? ###
 <p>
 
- Nessa sprint, aprendi sobre como baixar e utilizar o sistema Linux. Também aprendi sobre Git e o versionamento de códigos em conjunto com o GitHub. Alguns comandos utéis:
+Nessa sprint, aprendi sobre como baixar e utilizar o sistema Linux pela Virtual Machine. Também aprendi sobre Git e o versionamento de códigos em conjunto com o GitHub. Alguns comandos utéis aprendidos:
 
 #### Linux ####
  * cd pasta: utilizado tanto em Linux quanto em Git para mudar o diretório/arquivo
@@ -15,6 +15,6 @@
  * git commit -m "mensagem": comentário da alteração do arquivo
  * git push: envia o arquivo para o repositório
 
- Além disso, entendi o que é a linguagem de marcação de texto Markdown e como formatar textos com ela. 
+Além disso, entendi o que é a linguagem de marcação de texto Markdown e como formatar textos com ela. 
 
  </p>

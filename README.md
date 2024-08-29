@@ -1,6 +1,8 @@
 <h1 align=center> Compass.UOL <img src="https://logospng.org/download/uol/logo-uol-icon-256.png" width="27"/> - AWS Cloud Data Engineering </h1>
 
-<h2 align="center">Oi, eu sou a Letícia :) </h2>
+<h2 align="center">oi, eu sou a Letícia :) </h2>
+
+![foto](https://media.licdn.com/dms/image/v2/D4D03AQGf_10niGdXGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685994501131?e=1730332800&v=beta&t=g8-oLg6q4cPIKrUlaMAAeBQPrg0SkpZ4ipaKdcJ3guU)
 
 <img />
 
@@ -20,6 +22,9 @@
 - Inglês avançado
 - Visualização de dados
 - Análise de dados
+
+<h3 align="center"> ✨ O estou aprendendo? ✨ </h3>
+<p> No momento, estou aprendendo sobre comandos Linux e Git, além de como criar repositórios e utilizar a plataforma de hospedagem de códigos GitHub.</p>
 
 <h3 align="center"> ✨ Hobbies ✨ </h3>
 
