@@ -21,7 +21,7 @@
   ![Alt text](../evidencias/processamento.jpg)
 
   ### 3. Agendamento 
-  <p>Para executar o script por 4 dias às 15h27 criei um agendamento utilizando o comando "crontab -e". Coloquei a hora e os dias e o caminho do executável. Dei as permissões necessárias para que o comando funcionasse.</p>
+  <p>Para executar o script por 4 dias às 15h27 criei um agendamento utilizando o comando "crontab -e". Coloquei a hora, os dias e o caminho do executável. Dei as permissões necessárias para que o comando funcionasse.</p>
 
    ![Alt text](../evidencias/agendamento.jpg)
 
