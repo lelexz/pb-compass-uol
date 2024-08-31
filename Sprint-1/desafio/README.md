@@ -38,5 +38,5 @@
 ### 5. Conclusão
 <p>Ao final, foram gerados 4 relatórios de vendas com dados diferentes, uma vez que diariamente adicionei novos produtos no arquivo .csv.</p>
 
- ![Alt text](../evidencias/resultado_desafio.jpg)
- ![Alt text](../evidencias/resultado_desafio2.jpg)
+ ![Alt text](../evidencias/desafio_finalizado.jpg)
+ ![Alt text](../evidencias/desafio_finalizado2.jpg)
