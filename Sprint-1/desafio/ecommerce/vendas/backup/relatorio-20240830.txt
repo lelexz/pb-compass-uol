@@ -1,0 +1,6 @@
+Relatório de Vendas
+Data do sistema: 2024/08/30 15:27
+Data do primeiro registro de venda: 
+Data do último registro de venda: 
+Qtd total de itens diferentes vendidos: 0
+Primeiras 10 linhas do arquivo:
