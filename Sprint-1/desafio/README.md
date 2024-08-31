@@ -8,7 +8,7 @@
 
  ### 2. Criando o executável
  
- <p> Dentro de "processamento_de_vendas.sh" criei novos diretórios ("vendas", "backup"), copiei os dados para dentro deles e renomeei arquivos. Utilizei comandos como "cp" para copiar arquivos, "zip" para compactar arquivos,  entre outros.  </p>
+ <p> Dentro de "processamento_de_vendas.sh" criei novos diretórios ("vendas", "backup"), copiei os dados para dentro deles e renomeei arquivos. Utilizei comandos como "cp" para copiar arquivos e "zip" para compactar arquivos.  </p>
 
  <p> Iniciei a criação do relatório utilizando comandos como "echo" para exibir as linhas de texto no terminal, "head" e "tail" para pegar linhas específicas do banco de dados, "cut" para colunas específicas, entre outros. </p>
 
@@ -31,7 +31,12 @@
 
    ![Alt text](../evidencias/consolidador_cod.jpg)
 
+   <p>Mas, ao realizar testes, percebi que os relatórios ficavam grudados, dificultando a leitura. Então, criei um loop para resolver o problema.</p>
+
+   ![Alt text](../evidencias/consolidador_loop.jpg)
+
 ### 5. Conclusão
 <p>Ao final, foram gerados 4 relatórios de vendas com dados diferentes, uma vez que diariamente adicionei novos produtos no arquivo .csv.</p>
 
  ![Alt text](../evidencias/resultado_desafio.jpg)
+ ![Alt text](../evidencias/resultado_desafio2.jpg)
