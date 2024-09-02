@@ -73,3 +73,4 @@ id,produto,quantidade,preço,data
 7,bermuda,6,50.00,07/01/2023
 8,tênis,4,120.00,08/01/2023
 9,bone,12,10.00,09/01/2023
+
