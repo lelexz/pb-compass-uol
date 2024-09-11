@@ -12,7 +12,7 @@ Ao final, a base de dados estava na Terceira Forma Normal (3NF) porque não exis
 
  ![Alt text](../evidencias/modelo_relacional.png)
 
- ### Dimensionamento 
+ ### 2. Dimensionamento 
  <p> Para criar o modelo dimensional, criei a tabela de fatos (fato_locacao), que contém apenas as medidas quantitativas, e as tabelas de dimensão, que fornecem detalhes adicionais sobre essas medidas. Nesse modelo, associei a tabela fatos às tabelas dimensão por meio de chaves estrangeiras. Centralizei a tabela de fatos e coloquei as tabelas de dimensões ao seu redor, seguindo a representação do Star Schema</p>
 
   ![Alt text](../evidencias/modelo_dimensional.png)
