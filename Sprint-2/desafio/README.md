@@ -10,10 +10,10 @@ Para atender à Segunda Forma Normal (2NF), dividi a tabela tb_locacao em vária
 
 Ao final, a base de dados estava na Terceira Forma Normal (3NF) porque não existiam dependências transitivas em nenhuma das tabelas, ou seja, todas as colunas não-chave dependiam exclusivamente das colunas-chave. Essa estrutura garantiu que a base de dados estivesse completamente normalizada. </p>
 
- ![Alt text](../desafio/modelo_relacional.png)
+ ![Alt text](../desafio/modelo_relacional.jpg)
 
  ### 2. Dimensionamento 
- <p> Para criar o modelo dimensional, criei a tabela de fatos (fato_locacao), que contém apenas as medidas quantitativas, e as tabelas de dimensão, que fornecem detalhes adicionais sobre essas medidas. Nesse modelo, associei a tabela fatos às tabelas dimensão por meio de chaves estrangeiras. Centralizei a tabela de fatos e coloquei as tabelas de dimensões ao seu redor, seguindo a representação do Star Schema</p>
+ <p> Para criar o modelo dimensional, criei uma view de fatos (fato_locacao), que contém apenas as medidas quantitativas. Também desenvolvi as views de dimensão que fornecem detalhes adicionais sobre essas medidas. A dimensão de combustível não foi incluída nesse modelo pois essa abordagem visa focar nas dimensões mais relevantes para a análise, como a dimensão de datas. Assim, centralizei a tabela de fatos e organizei as tabelas de dimensões ao seu redor, seguindo a representação do Star Schema.  </p>
 
-  ![Alt text](../desafio/modelo_dimensional.png)
+  ![Alt text](../desafio/modelo_dimensional.jpg)
 
