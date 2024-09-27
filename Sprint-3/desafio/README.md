@@ -10,7 +10,7 @@ O objetivo desse desafio foi ler um arquivo .csv, processar seus dados e gerar i
 Para remover duplicatas, apliquei a função drop_duplicates com o parâmetro keep='first', garantindo que apenas o primeiro registro fosse mantido.  </p>
 
 ### 2. Tratamento de dados e criação de gráficos
-<p>Nem todas as colunas do dataset estavam com o formato ideal. Por isso, para gerar a maioria dos gráficos, precisei primeiro converter as colunas em strings e, depois, transformá-las em inteiros.
+<p>Nem todas as colunas do dataset estavam com o formato ideal. Por isso, para gerar a maioria dos gráficos, precisei converter as colunas em strings, remover os caracteres especiais (como $ e +) e, depois, transformá-las em inteiros.
 
 Para criar os gráficos, utilizei a biblioteca Matplotlib, combinada com a Pandas, para facilitar a manipulação dos dados e a personalização dos gráficos.
 </p>
