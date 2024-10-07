@@ -14,11 +14,8 @@ Em ambos os scripts (carguru e hash), utilizei as seguintes instruções:
 
 A única diferença entre os Dockerfiles criados foi o comando no "CMD", que especifica o arquivo a ser executado: "carguru.py" e "hash.py".
 
-Dockerfile de "carguru.py"
-![Alt text](../evidencias/dockerfile_carguru.jpg)
-
-Dockerfile de "hash.py"
- ![Alt text](../evidencias/dockerfile_hash.jpg)
+Carguru/Hash
+![Alt text](../evidencias/dockerfile_carguru.jpg) ![Alt text](../evidencias/dockerfile_hash.jpg)
 
 
 ### Carguru
