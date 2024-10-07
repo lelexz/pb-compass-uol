@@ -5,7 +5,7 @@ O objetivo desse desafio foi criar imagens e containers que executassem arquivos
 
 
 ### Criação do Dockerfile
-Em ambos os scripts (carguru e hash), utilizei as seguintes instruções:
+Para criar o arquvio de instruções Dockerfile, utilizei as seguintes instruções em ambos os scripts (carguru e hash):
 
 * FROM: especifica a imagem base. Nesse caso, utilizei s versão 3 do python em sua variante "slim", que é mais leve que a versão padrão
 * WORKDIR: define o diretório de trabalho dentro do container.
@@ -14,10 +14,29 @@ Em ambos os scripts (carguru e hash), utilizei as seguintes instruções:
 
 A única diferença entre os Dockerfiles criados foi o comando no "CMD", que especifica o arquivo a ser executado: "carguru.py" e "hash.py".
 
-Carguru/Hash
-![Alt text](../evidencias/dockerfile_carguru.jpg) ![Alt text](../evidencias/dockerfile_hash.jpg)
+<p>Dockerfile de "carguru.py"</p>
+
+![Alt text](../evidencias/dockerfile_carguru.jpg)
+
+<p>Dockerfile de "hash.py"</p>
+
+![Alt text](../evidencias/dockerfile_hash.jpg)
 
 
 ### Carguru
+<p>Depois de criar o Dockerfile, utilizei o comando "docker build ." para construir a imagem.</p>
+
+![Alt text](../evidencias/criando_imagem_carguru.jpg)
+
+<p>Após a imagem ser contruída, renomeei ela usando "docker tag <imagem_id> carguru-imagem" </p>
+
+![Alt text](../evidencias/nomeando_imagem_carguru.jpg)
+
+<p>Por fim, nomeei e executei o container com o comando "docker run --name carguru-container carguru-imagem", e o resultado foi exibido em seguida.</p>
+
+![Alt text](../evidencias/rodando_container_carguru.jpg)
+
+
+
 
 
