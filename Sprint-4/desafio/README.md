@@ -59,7 +59,7 @@ A única diferença entre os Dockerfiles criados foi o comando no "CMD", que esp
 ### É possível reutilizar containers?
 Sim, é possível reutilizar containers utilizando o comando "docker start <container_id>"
 
-![Alt text](../evidencias/reutilizando_container_carguru.jpg)
+![Alt text](../evidencias/reutilizando_container_hash.jpg)
 
 
 
