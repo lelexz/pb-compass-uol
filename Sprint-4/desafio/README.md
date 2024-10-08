@@ -7,7 +7,7 @@ O objetivo desse desafio era criar imagens e containers que executassem arquivos
 ### Criação do Dockerfile
 Para criar o arquvio de instruções Dockerfile, utilizei as seguintes instruções em ambos os scripts (carguru e hash):
 
-* FROM: especifica a imagem base. Nesse caso, utilizei a versão 3 do python em sua variante "slim", que é mais leve que a versão padrão
+* FROM: especifica a imagem base. Nesse caso, utilizei a versão 3 do python em sua variante "slim", que é mais leve que a versão padrão.
 * WORKDIR: define o diretório de trabalho dentro do container.
 * COPY: copia arquivos do sistema local para o container.
 * CMD: define o comando a ser executado quando o container é iniciado.
@@ -51,13 +51,15 @@ A única diferença entre os Dockerfiles criados foi o comando no "CMD", que esp
 ![Alt text](../evidencias/nomeando_imagem_hash.jpg)
 
 
-<p>Em seguida, nomeei e executei o container com o comando "docker run -it --name hash-container mascarar-dados", utilizando "-it" para permitir a interação com o container interativo. O hash SHA-1 das strings digitadas foi gerado e exibido conforme esperado.</p>
+<p>Em seguida, nomeei e executei o container com o comando "docker run -it --name hash-container mascarar-dados", utilizando "-it" para permitir a interação com o container. O hash SHA-1 das strings digitadas foi gerado e exibido conforme esperado.</p>
 
 ![Alt text](../evidencias/rodando_container_hash.jpg)
 
 
 ### É possível reutilizar containers?
-Sim, é possível reutilizar containers utilizando o comando "docker start <container_id>"
+Sim, é possível reutilizar containers utilizando o comando "docker start <container_id>" ou "docker start <nome_container>". Ambos os identificadores são válidos para iniciar um container já existente.
+
+
 
 ![Alt text](../evidencias/reutilizando_container_hash.jpg)
 
