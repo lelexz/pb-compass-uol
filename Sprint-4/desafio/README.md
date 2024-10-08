@@ -28,7 +28,7 @@ A única diferença entre os Dockerfiles criados foi o comando no "CMD", que esp
 
 ![Alt text](../evidencias/criando_imagem_carguru.jpg)
 
-<p>Após a imagem ser contruída, renomeei ela usando "docker tag `<imagem_id>` carguru-imagem" </p>
+<p>Após a imagem ser contruída, renomeei ela usando "docker tag &lt;imagem_id&gt; carguru-imagem" </p>
 
 ![Alt text](../evidencias/nomeando_imagem_carguru.jpg)
 
@@ -46,7 +46,7 @@ A única diferença entre os Dockerfiles criados foi o comando no "CMD", que esp
 
 ![Alt text](../evidencias/criando_imagem_hash.jpg)
 
-<p>Após a construção, também renomeei a imagem usando "docker tag `<imagem_id>` hash-imagem".</p>
+<p>Após a construção, também renomeei a imagem usando "docker tag &lt;imagem_id&gt; hash-imagem".</p>
 
 ![Alt text](../evidencias/nomeando_imagem_hash.jpg)
 
