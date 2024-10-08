@@ -1,7 +1,7 @@
 ##   Sprint 4 - Desafio 
 
 ### Objetivo
-O objetivo desse desafio foi criar imagens e containers que executassem arquivos .py.
+O objetivo desse desafio era criar imagens e containers que executassem arquivos .py.
 
 
 ### Criação do Dockerfile
