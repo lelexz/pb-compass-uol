@@ -7,7 +7,7 @@ O objetivo desse desafio foi criar imagens e containers que executassem arquivos
 ### Criação do Dockerfile
 Para criar o arquvio de instruções Dockerfile, utilizei as seguintes instruções em ambos os scripts (carguru e hash):
 
-* FROM: especifica a imagem base. Nesse caso, utilizei s versão 3 do python em sua variante "slim", que é mais leve que a versão padrão
+* FROM: especifica a imagem base. Nesse caso, utilizei a versão 3 do python em sua variante "slim", que é mais leve que a versão padrão
 * WORKDIR: define o diretório de trabalho dentro do container.
 * COPY: copia arquivos do sistema local para o container.
 * CMD: define o comando a ser executado quando o container é iniciado.
