@@ -24,7 +24,7 @@
 - Análise de dados
 
 <h3 align="center"> ✨ O estou aprendendo? ✨ </h3>
-<p> No momento, estou aprendendo sobre comandos Linux e Git, além de como criar repositórios e utilizar a plataforma de hospedagem de códigos GitHub.</p>
+<p> No momento, estou aprendendo sobre fundamentos da AWS.</p>
 
 <h3 align="center"> ✨ Hobbies ✨ </h3>
 
@@ -38,3 +38,4 @@
 ###  <a href= Sprint-2 > Sprint 2 - SQL </a>
 ###  <a href= Sprint-3 > Sprint 3 - Python </a>
 ###  <a href= Sprint-4 > Sprint 4 - Docker </a>
+###  <a href= Sprint-5 > Sprint 4 - AWS Fundamentals </a>
