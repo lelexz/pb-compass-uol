@@ -29,7 +29,7 @@ Para criar os dataframes, comecei importando as bibliotecas necessárias, inclui
 
 Em seguida, criei um cliente S3 com o comando boto3.client('s3') e defini o nome do bucket e do arquivo CSV que queria baixar. Usei o método get_object() para pegar o arquivo do S3 e obtive seu conteúdo. Depois, decodei esse conteúdo usando a codificação ISO-8859-1.
 
-![Clique aqui](../evidencias/desafio/bucket_e_arquivo.jpg.jpg)
+![Clique aqui](../evidencias/desafio/bucket_e_arquivo.jpg)
 
 Com o conteúdo do CSV em uma string, utilizei o StringIO para criar um objeto que o pandas pudesse ler. Isso me permitiu usar a função pd.read_csv() para ler e transformar os dados em um dataframe.
 
