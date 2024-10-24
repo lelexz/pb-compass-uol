@@ -38,4 +38,4 @@
 ###  <a href= Sprint-2 > Sprint 2 - SQL </a>
 ###  <a href= Sprint-3 > Sprint 3 - Python </a>
 ###  <a href= Sprint-4 > Sprint 4 - Docker </a>
-###  <a href= Sprint-5 > Sprint 4 - AWS Fundamentals </a>
+###  <a href= Sprint-5 > Sprint 5 - AWS Fundamentals </a>

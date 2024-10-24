@@ -62,7 +62,7 @@ Converti a coluna "data_hora_boletim" para um formato de data utilizando pd.to_d
 
 3. **Função de Data**
 
-Criei outra coluna chamada "ano" ara extrair o ano da coluna data_hora_boletim. Utilizei dr.year para realziar essa extração
+Criei outra coluna chamada "ano" para extrair o ano da coluna data_hora_boletim. Utilizei dt.year para realizar essa extração.
 
 4. **Função de String** 
 
@@ -72,7 +72,7 @@ Ajustei a coluna "pedestre" substituindo o valor "S" por "SIM".
 
 O primeiro operador lógico utilizado foi o "&", que verifica se a coluna cinto_seguranca é igual a "NÃO", garantindo que apenas acidentes onde o cinto de segurança não foi utilizado sejam selecionados.
 
-Em seguida, Usei operador "&" novamente para checar se a coluna desc_severidade é igual a "FATAL" e se a coluna condutor é igual a "S", filtrando acidentes fatais em que o condutor estava diretamente envolvido. 
+Em seguida, usei o operador "&" novamente para checar se a coluna desc_severidade é igual a "FATAL" e se a coluna condutor é igual a "S", filtrando acidentes fatais em que o condutor estava diretamente envolvido. 
 
 No final, o dataframe ficou assim:
 
@@ -88,3 +88,15 @@ Para calcular a média de idade dos envolvidos nos acidentes, usei a função de
 Para obter o número total de acidentes registrados, usei a função de agregação count() na coluna "Nº_boletim". Isso me permitiu contar quantos boletins de ocorrência estão presentes no dataset, criando um novo dataframe com o total de registros. O resultado foi:
 
 ![Clique aqui](../evidencias/desafio/total_acidentes.jpg)
+
+
+### Conclusão
+Durante o desafio, aprendi muito sobre como trabalhar com dados usando Python para manipular e analisar essas informações. A experiência me ajudou a entender melhor como organizar e processar dados, além de destacar a importância de filtrar e agrupar informações para conseguir insights significativos.
+
+Consegui aplicar técnicas para fazer análises, identificar padrões e focar em situações específicas. Além disso, achei bem interessante colocar em prática o uso do S3 da AWS, vendo como é fácil armazenar e acessar dados na nuvem. No geral, foi uma ótima oportunidade para melhorar minhas habilidades em análise de dados e programação.
+
+
+
+
+
+
