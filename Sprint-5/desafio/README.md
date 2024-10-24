@@ -43,4 +43,43 @@ Por fim, subi esses arquivos de volta para o bucket no S3 usando o método uploa
 
 ![Clique aqui](../evidencias/desafio/enviando_dataframes.jpg)
 
+O bucket final ficou assim:
 
+![Clique aqui](../evidencias/desafio/bucket_final.jpg)
+
+### Dataframes
+
+#### Filtrado
+Para obter o df_filtrado.csv, fiz as seguintes alterações
+
+1. Função Condicional
+Criei uma nova coluna chamada "maior_idade" para indicar se a idade dos envolvidos nos acidentes era maior ou igual a 18 anos.
+
+2. Função de Conversão
+Converti a coluna "data_hora_boletim" para um formato de data utilizando pd.to_datetime().
+
+3. Função de Data
+Criei outra coluna chamada "ano" ara extrair o ano da coluna data_hora_boletim. Utilizei dr.year para realziar essa extração
+
+4. Função de String 
+Ajustei a coluna "pedestre" substituindo o valor "S" por "SIM".
+
+5. Filtro com dois operadores lógicos
+O primeiro operador lógico utilizado foi o "&", que verifica se a coluna cinto_seguranca é igual a "NÃO", garantindo que apenas acidentes onde o cinto de segurança não foi utilizado sejam selecionados.
+
+Em seguida, Usei operador "&" novamente para checar se a coluna desc_severidade é igual a "FATAL" e se a coluna condutor é igual a "S", filtrando acidentes fatais em que o condutor estava diretamente envolvido. 
+
+No final, o dataframe ficou assim:
+
+![Clique aqui](../evidencias/desafio/df_filtrado.jpg)
+
+#### Média de idade
+Para calcular a média de idade dos envolvidos nos acidentes, usei a função de agregação mean(), que faz a média dos valores da coluna "Idade". Depois, apliquei a função round() para arredondar o valor e criei um novo dataframe com esse resultado. O resultado final ficou assim:
+
+![Clique aqui](../evidencias/desafio/media_idade.jpg)
+
+
+#### Total de acidentes
+Para obter o número total de acidentes registrados, usei a função de agregação count() na coluna "Nº_boletim". Isso me permitiu contar quantos boletins de ocorrência estão presentes no dataset, criando um novo dataframe com o total de registros. O resultado foi:
+
+![Clique aqui](../evidencias/desafio/total_acidentes.jpg)

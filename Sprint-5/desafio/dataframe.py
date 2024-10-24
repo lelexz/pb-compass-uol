@@ -37,7 +37,10 @@ df['ano'] = df['data_hora_boletim'].dt.year
 df['pedestre'] = df['pedestre'].str.replace('S', 'SIM')
 
 #filtrando dados usando operadores lógicos
-filtro = df[(df.cinto_seguranca.str.strip() == 'NÃO') & (df.desc_severidade.str.strip() == 'FATAL')]
+filtro = df[(df.cinto_seguranca.str.strip() == 'NÃO') & 
+            ((df.desc_severidade.str.strip() == 'FATAL') & 
+             (df.condutor.str.strip() == "S"))]
+
 
 #salvando os dataframes em um arquivo csv
 filtro.to_csv('df_filtrado.csv', index=False)
