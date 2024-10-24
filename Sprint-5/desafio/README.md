@@ -50,21 +50,26 @@ O bucket final ficou assim:
 ### Dataframes
 
 #### Filtrado
-Para obter o df_filtrado.csv, fiz as seguintes alterações
+Para obter o df_filtrado.csv, fiz as seguintes alterações:
 
-1. Função Condicional
+1. **Função Condicional**
+
 Criei uma nova coluna chamada "maior_idade" para indicar se a idade dos envolvidos nos acidentes era maior ou igual a 18 anos.
 
-2. Função de Conversão
+2. **Função de Conversão**
+
 Converti a coluna "data_hora_boletim" para um formato de data utilizando pd.to_datetime().
 
-3. Função de Data
+3. **Função de Data**
+
 Criei outra coluna chamada "ano" ara extrair o ano da coluna data_hora_boletim. Utilizei dr.year para realziar essa extração
 
-4. Função de String 
+4. **Função de String** 
+
 Ajustei a coluna "pedestre" substituindo o valor "S" por "SIM".
 
-5. Filtro com dois operadores lógicos
+5. **Filtro com dois operadores lógicos**
+
 O primeiro operador lógico utilizado foi o "&", que verifica se a coluna cinto_seguranca é igual a "NÃO", garantindo que apenas acidentes onde o cinto de segurança não foi utilizado sejam selecionados.
 
 Em seguida, Usei operador "&" novamente para checar se a coluna desc_severidade é igual a "FATAL" e se a coluna condutor é igual a "S", filtrando acidentes fatais em que o condutor estava diretamente envolvido. 
