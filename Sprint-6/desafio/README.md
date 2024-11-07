@@ -54,11 +54,11 @@ Nesse desafio, escolhi analisar filmes com o tema "crime" com o objetivo de resp
 A ideia é entender melhor o que faz um filme de crime ser bem-sucedido, olhando para fatores como popularidade, avaliações, duração e orçamento. Além disso, quero explorar como o tema evoluiu ao longo dos anos, identificando tendências e padrões.
 
 **Perguntas que serão respondidas**
-* Qual é a relação entre a duração dos filmes de crime e suas avaliações?
+* Qual é a relação entre a duração dos filmes de crime e a média de suas avaliações?
 * Quem são os diretores mais frequentes de filmes de crime e qual é a média de avaliação de seus filmes? 
-* Qual é a relação entre o orçamento e a receita dos filmes de crime ao longo dos anos? 
-* Quais países produzem os filmes de crime com maior número de bilheteria?
-* Como a popularidade de filmes de crime se compara entre produções em inglês e em outros idiomas?
+* Como a relação entre orçamento e receita de filmes de crime variou ao longo dos anos?
+* Quais países produzem os filmes de crime com maior receita de bilheteria?
+* Qual é a diferença na popularidade de filmes de crime entre produções em inglês e produções em outros idiomas?
 
 
 
