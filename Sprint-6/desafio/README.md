@@ -28,7 +28,7 @@ Por fim, utilizei a função ler_csv para ler os arquivos `movies.csv` e `series
 ![Clique aqui](../evidencias/usando_funcoes.jpg)
 
 
-### Dockerfile e rodando
+### Configuração e Execução do Container Docker
 No Dockerfile, comecei com `FROM python:3-slim` para usar uma imagem leve do Python 3. Depois, configurei o diretório de trabalho com `WORKDIR /app` e instalei o `boto3` com `RUN pip install boto3`. Em seguida, copiei todos os arquivos para o container com `COPY . /app/` e, no final, defini que o script `csvload.py` vai rodar quando o container iniciar com `CMD ["python", "csvload.py"]`.
 
 ![Clique aqui](../evidencias/dockerfile.jpg)
