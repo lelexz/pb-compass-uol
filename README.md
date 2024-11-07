@@ -2,7 +2,7 @@
 
 <h2 align="center">oi, eu sou a Letícia :) </h2>
 
- <h1 align=center> <img width="35%" src="https://media.licdn.com/dms/image/v2/D4D03AQGf_10niGdXGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685994501131?e=1730332800&v=beta&t=g8-oLg6q4cPIKrUlaMAAeBQPrg0SkpZ4ipaKdcJ3guU" />  </h1>
+ <h1 align=center> <img width="35%" src="https://media.licdn.com/dms/image/v2/D4D03AQGf_10niGdXGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685994501131?e=1736380800&v=beta&t=L3skHnIWkyIHDnHgH-LMU7dImNhPLqQ3W1Cxb8TnDYI"/>  </h1>
 
 
 
@@ -24,7 +24,7 @@
 - Análise de dados
 
 <h3 align="center"> ✨ O estou aprendendo? ✨ </h3>
-<p> No momento, estou aprendendo sobre fundamentos da AWS.</p>
+<p> No momento, estou aprendendo sobre serviços analíticos da AWS.</p>
 
 <h3 align="center"> ✨ Hobbies ✨ </h3>
 
