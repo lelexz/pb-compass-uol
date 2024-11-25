@@ -7,6 +7,5 @@ Nessa sprint, explorei como usar o AWS Glue e o Spark para transformar dados e a
  </p>
 
 ###  <a href= exercicios> Exercícios </a>
-###  <a href= certificados> Certificados </a>
 ###  <a href= desafio> Desafio </a>
 ###  <a href= evidencias> Evidências </a>

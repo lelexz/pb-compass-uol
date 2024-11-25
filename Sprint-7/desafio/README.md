@@ -53,7 +53,3 @@ O bucket final ficou com a seguinte estrutura:
 
 ### Sobre a análise
 Durante o desenvolvimento desse desafio, decidi focar em uma análise mais específica, comparando a nacionalidade dos diretores e os países de produção com o sucesso dos filmes. Para essa comparação, vou usar métricas como faturamento e popularidade. Essa abordagem me permitirá entender melhor como esses fatores influenciam o desempenho dos filmes.
-
-
-
-ff
