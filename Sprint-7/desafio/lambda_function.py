@@ -109,3 +109,5 @@ def upload_to_s3(data, bucket, tipo, current_date):
 
     s3.put_object(Body=data, Bucket=bucket, Key=s3_key)
     print(f"Dados carregados para S3: s3://{bucket}/{s3_key}")
+    
+    ff
