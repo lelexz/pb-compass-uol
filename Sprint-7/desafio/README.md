@@ -15,7 +15,7 @@ Para conseguir fazer as requisições às APIs no AWS Lambda, precisei instalar 
 
 No código, comecei importando as bibliotecas necessárias, incluindo `boto3` para interação com o S3, `requests` para fazer as chamadas na API do TMDB e `datetime` para manipulação de datas Também criei dois arquivos separados por questão de segurança: `chave_api` e `chaves_aws`, para guardar a chave da API do TMDB e as credenciais da AWS.
 
-![Clique aqui](../evidencias/imports)
+![Clique aqui](../evidencias/imports.jpg)
 
 Criei a função `fetch_tmdb_data` que faz as requisições para API. Ela recebe o endpoint, como o `discover/movie`, os parâmetros, como idioma e gênero, e a chave da API. A função monta a URL, faz a requisição, e se der tudo certo (status 200), retorna os dados da API em formato JSON. Caso contrário, ele mostra uma mensagem apontando o erro.
 
