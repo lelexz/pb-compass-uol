@@ -19,6 +19,7 @@ Além disso, entendi o que é a linguagem de marcação de texto Markdown e como
  </p>
 
 
-###  <a href= desafio > Desafio </a>
-
- ###  <a href= evidencias > Evidências </a>
+###  <a href= certificados> Certificados </a> 
+###  <a href= exercicios> Exercícios </a> 
+###  <a href= desafio> Desafio </a>
+###  <a href= evidencias> Evidências </a>

@@ -12,7 +12,7 @@ Nesta sprint, aprofundei meus conhecimentos em Docker, explorando conceitos como
 * docker rmi nome_imagem: remove uma imagem.
  </p>
 
-###  <a href= exercicios> Exercícios </a>
-###  <a href= certificados> Certificados </a>
+###  <a href= certificados> Certificados </a> 
+###  <a href= exercicios> Exercícios </a> 
 ###  <a href= desafio> Desafio </a>
 ###  <a href= evidencias> Evidências </a>

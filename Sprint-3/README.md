@@ -14,7 +14,7 @@ Nesta sprint, aprofundei meus conhecimentos em Python, explorando conceitos como
 
  </p>
 
-###  <a href= exercicios > Exercícios </a>
-###  <a href= certificado > Certificado </a>
-###  <a href= desafio > Desafio </a>
-###  <a href= evidencias > Evidências </a>
+###  <a href= certificados> Certificados </a> 
+###  <a href= exercicios> Exercícios </a> 
+###  <a href= desafio> Desafio </a>
+###  <a href= evidencias> Evidências </a>
