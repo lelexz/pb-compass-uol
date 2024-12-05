@@ -50,3 +50,7 @@ Ao final, os arquivos ficaram organizados da seguinte maneira:
 **JSON**
 
 ![Clique aqui](../evidencias/json_bucket.jpg)
+
+
+### Sobre a análise
+Durante o desenvolvimento desta etapa, decidi revisitar o desafio da Sprint 7, selecionando diretores específicos para aprofundar a análise. Continuarei considerando métricas como faturamento e popularidade para realizar comparações mais detalhadas.
