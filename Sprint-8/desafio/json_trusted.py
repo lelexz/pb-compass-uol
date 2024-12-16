@@ -4,7 +4,8 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
-from pyspark.sql.types import StructType, StructField, StringType, FloatType, IntegerType
+from pyspark.sql.types import StructType, StructField, StringType, FloatType, IntegerType, ArrayType
+from pyspark.sql.functions import col, when
 
 ## @params: [JOB_NAME]
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
@@ -28,11 +29,18 @@ schema = StructType([
     StructField("popularity", FloatType(), True),
     StructField("vote_average", FloatType(), True),
     StructField("original_language", StringType(), True),
-    StructField("production_countries", StringType(), True),
-    
+    StructField("production_countries", ArrayType(StringType()), True),
 ])
 
 tmdb_df = spark.read.schema(schema).json(input_path)
+
+tmdb_df = tmdb_df.withColumn("production_countries", col("production_countries").getItem(0))
+
+tmdb_df = tmdb_df.withColumn("budget", when(col("budget") == 0, None).otherwise(col("budget")))
+tmdb_df = tmdb_df.withColumn("revenue", when(col("revenue") == 0, None).otherwise(col("revenue")))
+
+tmdb_df = tmdb_df.withColumn("budget", col("budget").cast(IntegerType())) 
+tmdb_df = tmdb_df.withColumn("revenue", col("revenue").cast(IntegerType()))
 
 tmdb_df.write.parquet(output_path, mode="overwrite")
 

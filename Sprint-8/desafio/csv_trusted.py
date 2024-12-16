@@ -3,7 +3,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.job import Job
 from awsglue.context import GlueContext
-from pyspark.sql.functions import split, col
+from pyspark.sql.functions import col, when
 
 
 ## @params: [JOB_NAME]
@@ -22,6 +22,10 @@ movies_filtered = movies_df.filter(col("genero").contains("Crime"))
 movies_filtered = movies_filtered.withColumnRenamed("tituloPincipal", "tituloPrincipal")
 
 movies_filtered = movies_filtered.dropDuplicates(["id", "tituloPrincipal", "anoLancamento"])
+
+movies_filtered = movies_filtered.withColumn("anoLancamento",
+                  when(col("anoLancamento").isNull(), None).otherwise(col("anoLancamento").cast("int"))
+)
 
 movies_filtered.write.parquet("s3://bkt-desafio/Trusted/CSV/", mode="overwrite")
 

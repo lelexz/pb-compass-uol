@@ -42,3 +42,4 @@
 ###  <a href= Sprint-6 > Sprint 6 - Serviços Analíticos (AWS) </a>
 ###  <a href= Sprint-7 > Sprint 7 - Plataformas Big Data (Spark, Hadoop) </a>
 ###  <a href= Sprint-8 > Sprint 8 - Apache Spark </a>
+###  <a href= Sprint-9 > Sprint 9 - Apache Spark </a>
