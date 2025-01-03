@@ -43,3 +43,4 @@
 ###  <a href= Sprint-7 > Sprint 7 - Plataformas Big Data (Spark, Hadoop) </a>
 ###  <a href= Sprint-8 > Sprint 8 - Apache Spark </a>
 ###  <a href= Sprint-9 > Sprint 9 - Apache Spark </a>
+###  <a href= Sprint-10 > Sprint 10 - Visualização de Dados </a>
