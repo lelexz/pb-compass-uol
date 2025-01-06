@@ -15,7 +15,7 @@ Após importar os dados, criei relacionamentos entre as tabelas para garantir co
 
 
 ### Análise
-O objetivo da minha análise foi comparar o sucesso de diretores de diferentes nacionalidades entre os anos 1990 e 2009, utilizando métricas como faturamento, popularidade e orçamento.
+O objetivo da minha análise foi comparar o desempenho de diretores de diferentes nacionalidades em filmes lançados entre 1990 e 2009, considerando métricas como faturamento, popularidade e orçamento.
 
 Escolhi um diretor representativo de cada nacionalidade, todos amplamente reconhecidos mundialmente. São eles:
 
@@ -25,8 +25,7 @@ Escolhi um diretor representativo de cada nacionalidade, todos amplamente reconh
  * **John Woo**: Chinês
  * **Takashi Miike**: Japonês
 
-Para simplificar o entendimento de quem visualiza o dashboard, optei por exibir gentílicos nos gráficos em vez de nomes, criando um campo calculado que mapeia os diretores para suas respectivas nacionalidades.
-
+Para simplificar o entendimento de quem visualiza o dashboard, optei por exibir gentílicos nos gráficos em vez de nomes, criando um campo calculado que associa cada diretor à sua nacionalidade.
 
 ![Clique aqui](../evidencias/campo_calculado_gentilicos.jpg)
 
@@ -58,7 +57,7 @@ Para ilustrar a **popularidade média** dos diretores, utilizei uma nuvem de pal
 
 
 #### 4. Gráfico de Combinação de Barras Clusterizadas com Linha
-Esse gráfico combina barras para **receita** e uma linha para **popularidade**, evidenciando a relação entre essas variáveis
+Esse gráfico combina barras para **receita** e uma linha para **popularidade**, evidenciando a relação entre essas variáveis.
 
 * O diretor **Americano** domina em receita (acima de $200M), seguido por **Chinês** e **Britânico** (acima de $100M).
 
@@ -68,7 +67,7 @@ Esse gráfico combina barras para **receita** e uma linha para **popularidade**,
 #### 5. Gráfico de Pizza
 Comparando diretores de países de língua inglesa com diretores asiáticos, o gráfico de pizza mostra que:
 
-* Diretores que falam **inglês** geraram $173.97M em receita, enquanto diretores **asiáticos** contribuíram com $16.31M.
+* Diretores que falam **inglês** geraram $173.97M em receita, enquanto os **asiáticos** contribuíram com $16.31M.
 
 ![Clique aqui](../evidencias/pizza.jpg)
 
@@ -96,7 +95,7 @@ O dashboard final ficou assim:
 
 
 ### Conclusão
-O dashboard revela que diretores que falam inglês, especialmente o Americano, se destacam com um desempenho bem superior, tanto em notas médias quanto em popularidade e receitas.
+O dashboard revela que diretores que falam inglês, especialmente o Americano, se destacam com um desempenho bem superior, tanto em notas médias quanto em popularidade e receita.
 
 * O diretor **Americano** alcançou a maior nota média (8,15) e liderou em receita (acima de $200M), destacando-se no mercado global.
 
