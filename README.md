@@ -34,13 +34,13 @@
 
 # Sprints
 
-###  <a href= Sprint-1 > Sprint 1 - Git e Linux </a>
-###  <a href= Sprint-2 > Sprint 2 - SQL </a>
-###  <a href= Sprint-3 > Sprint 3 - Python </a>
-###  <a href= Sprint-4 > Sprint 4 - Docker </a>
-###  <a href= Sprint-5 > Sprint 5 - AWS Fundamentals </a>
-###  <a href= Sprint-6 > Sprint 6 - Serviços Analíticos (AWS) </a>
-###  <a href= Sprint-7 > Sprint 7 - Plataformas Big Data (Spark, Hadoop) </a>
-###  <a href= Sprint-8 > Sprint 8 - Apache Spark </a>
-###  <a href= Sprint-9 > Sprint 9 - Apache Spark </a>
+###  <a href= Sprint-01 > Sprint 1 - Git e Linux </a>
+###  <a href= Sprint-02 > Sprint 2 - SQL </a>
+###  <a href= Sprint-03 > Sprint 3 - Python </a>
+###  <a href= Sprint-04 > Sprint 4 - Docker </a>
+###  <a href= Sprint-05 > Sprint 5 - AWS Fundamentals </a>
+###  <a href= Sprint-06 > Sprint 6 - Serviços Analíticos (AWS) </a>
+###  <a href= Sprint-07 > Sprint 7 - Plataformas Big Data (Spark, Hadoop) </a>
+###  <a href= Sprint-08 > Sprint 8 - Apache Spark </a>
+###  <a href= Sprint-09 > Sprint 9 - Apache Spark </a>
 ###  <a href= Sprint-10 > Sprint 10 - Visualização de Dados </a>
